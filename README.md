@@ -10,3 +10,6 @@ shared-models = { path = "../shared-models" }
 
 Changing a public type here demonstrates cross-repository navigation, references,
 and coordinated edits in VS Code.
+
+Tasks include both `content` and `title`; create requests validate both fields
+after trimming surrounding whitespace.
